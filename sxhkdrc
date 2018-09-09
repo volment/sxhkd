@@ -5,6 +5,7 @@
 # terminal emulator
 mod4 + Return
 	urxvt
+#	urxvt -pe selection-to-clipboard
 
 # program launcher
 mod4 + p
@@ -121,7 +122,7 @@ mod4 + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 XF86MonBrightnessUp
-	xbacklight -inc 15
+	xbacklight -inc 5
 
 XF86MonBrightnessDown
 	xbacklight -dec 5
